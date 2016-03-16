@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>grid</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- build:css styles/grid.css -->
+    <link rel="stylesheet" href="styles/grid.css">
+    <!-- endbuild -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        [class^="col"]{
+            height: 70px;
+            padding: 10px;
+        }
+        [class^="col"] > .item {
+            border: 1px solid #999;
+            height: 100%;
+            background-color: rgb(233, 233, 233);
+        }
+        .row{
+            margin: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-2">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-2">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-2 col-sm-8 col-xs-8">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-3">
+            <div class="item"></div>
+        </div>
+        <div class="col-md-6 col-sm-3 col-xs-3">
+            <div class="item"></div>
+        </div>
+
+    </div>
+
+  </body>
+</html>
