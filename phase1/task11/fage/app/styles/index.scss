@@ -74,6 +74,8 @@ a {
   @include font-dpr(14px);
   max-width: $container_w;
   margin: 0 auto;
+  //修复一些浏览器出现的横向滚动条(QQ内置浏览器)
+  overflow: hidden;
 }
 
 /*头部*/
