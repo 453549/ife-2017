@@ -171,6 +171,7 @@ section {
 /*栏目*/
 .col {
   height: 318rem/$prop;
+  overflow: hidden;
   @at-root {
     .col-ul {
       height: 258rem/$prop;
