@@ -23,9 +23,12 @@
 	var btn=document.getElementById("button");
 	var inp=document.getElementById("aqi-input");
 	var dis=document.getElementById("aqi-display");
-	btn.onclick=function() {
+	/*btn.onclick=function() {
 		dis.innerHTML=inp.value;
-	};
+	};*/
+	btn.addEventListener('click',function(){
+		dis.innerHTML=inp.value;
+	});
 
 })();
 
